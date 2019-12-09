@@ -1,0 +1,37 @@
+ .card{
+  margin-top: 10px;
+ }
+.col-sm-11 p{
+    position: relative;
+    width: 9%;
+    min-height: 30px;
+   margin-right: 5px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    display: inline-flex;
+    text-align: justify;
+}
+.col-sm-11 p:hover{
+   cursor: pointer;
+   border-color: #00b8f8;
+}
+.booked{
+	cursor: not-allowed;
+    color: #7e8282 !important;
+    border: #7e8282;
+    background-color: #7e8282 !important
+}
+.col-sm-11 p:active {
+  border-color: #00b8f8;
+    color: #00b8f8;
+    background-color: #00b8f8;
+}
+.active{
+	border-color: #00b8f8 !important;
+    color: #00b8f8 !important;
+    background-color: #00b8f8 !important;
+	
+}
+.info,.alert-dismissible{
+	display:none;
+}
